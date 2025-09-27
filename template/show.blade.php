@@ -174,6 +174,17 @@
                             {{-- FORM PLACEMENT --}}
                             
                             {{-- END --}}
+
+                            <div class="flex flex-col sm:flex-row gap-3 pt-4">
+                                <button type="button" @click="openEditProductModal{{ 1005 }} = false"
+                                    class="flex-1 inline-flex justify-center items-center px-3 py-2 bg-gray-500 hover:bg-gray-600 text-white font-medium rounded-lg transition duration-200">
+                                    Batal
+                                </button>
+                                <button type="submit"
+                                    class="flex-1 inline-flex justify-center items-center px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition duration-200">
+                                    Simpan Data
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
