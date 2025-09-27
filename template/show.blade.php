@@ -174,17 +174,6 @@
                             {{-- FORM PLACEMENT --}}
                             
                             {{-- END --}}
-
-                            <div class="flex flex-col sm:flex-row gap-3 pt-4">
-                                <button type="button" @click="openEditProductModal{{ 1005 }} = false"
-                                    class="flex-1 px-3 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-lg">
-                                    Batal
-                                </button>
-                                <button type="submit"
-                                    class="flex-1 px-3 py-2 bg-yellow-600 hover:bg-yellow-700 text-white rounded-lg">
-                                    Update Data
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
